@@ -26,4 +26,11 @@
 
 	</modelsif>
 
+	<modelsif condition="xpath:/controls/backpack_item_stackAGF">
+
+		<setattribute xpath="/controls/backpack_item_stackAGF" name="on_scroll">true</setattribute>
+		<setattribute xpath="/controls/backpack_item_stackAGF" name="controller">WheelItemStack, InventoryMouseWheel</setattribute>
+
+	</modelsif>	
+
 </configs>
